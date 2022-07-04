@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2d4db;
+}
+.container {
+    margin-top: 20px;
+    background-color: #7e7c7c;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 16px;
+}
+
+.container a:hover {
+    background-color: purple;
+    color: #FFFFFF;
+}
+
+.container a.active {
+    background-color: rebeccapurple;
+
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    margin: 35px auto;
+    padding: 50px;
+   
+  }
+  
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+ 
+  button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: black;
+    color: aquamarine;
+    
+  }
+
+  
+  .psw{
+    width: auto;
+    padding: 7px 10px;
+    background-color: black;
+   
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+  }
+  
+
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.login-form {
+  width: 600px;
+  margin: 0 auto;
+}

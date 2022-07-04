@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2d4db;
+}
+img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin:0;
+    width: auto;
+    max-width: 50%;  
+    height: 100px; 
+}
+.container {
+    margin-top: 20px;
+    background-color: #7e7c7c;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 16px;
+}
+
+.container a:hover {
+    background-color: purple;
+    color: #FFFFFF;
+}
+
+.container a.active {
+    background-color: rebeccapurple;
+
+}
+
+main div {
+  text-align:justify;
+  margin: 0 auto;
+  width: 600px;
+}
+
+h2 {
+  text-align: center !important;
+}
+
+img {
+  margin-left: 40%;
+}

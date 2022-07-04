@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2d4db;
+}
+  
+.container {
+    margin-top: 20px;
+    background-color: #7e7c7c;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 16px;
+}
+
+.container a:hover {
+    background-color: purple;
+    color: #FFFFFF;
+}
+
+.container a.active {
+    background-color: rebeccapurple;
+
+}
+
+
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  input[type=tel], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color:black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
+.contact-form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+select {
+  width: 630px;
+  height: 2.5rem;
+  margin: 8px 0 8px;
+  background: #f1f1f1;
+  border: none;
+  color: grey;
+}
+
+ 

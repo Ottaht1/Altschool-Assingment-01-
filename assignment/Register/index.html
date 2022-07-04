@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> REGISTER </title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="../../index.html">ABOUT</a>
+            <a href="../Contact/index.html">CONTACT</a>
+            <a href="#" class="active">REGISTER</a>
+            <a href="../Login/index.html">LOGIN</a>
+            <a href="../Calculator/index.html">CALCULATOR</a>
+        </div>
+    </header>
+    <div class="contact-title">
+        
+        <h3>Please fill in this form to create an account. </h3>
+
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="">
+            <input name="fname" type="text" class="form-control" placeholder="First Name" required><br>
+            <input name="lname" type="text" class="form-control" placeholder="Last Name" required><br>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required><br>
+            <select name="gender">
+                <option value="none" selected>Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+            </select>
+            <input name="country" type="text" class="form-control" placeholder="Country" required><br>
+            <input name="state/province" type="text" class="form-control" placeholder="State/Province" required><br>
+            <input name="username" type="text" class="form-control" placeholder="Username" required><br>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+
+           
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

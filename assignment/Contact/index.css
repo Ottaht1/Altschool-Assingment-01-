@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2d4db;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #7e7c7c;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 16px;
+}
+
+.container a:hover {
+    background-color: purple;
+    color: #FFFFFF;
+}
+
+.container a.active {
+    background-color: rebeccapurple;
+
+}
+
+.contact-title {
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 50px;
+    
+    
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid gray;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+.submit {
+    background: black;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.submit:hover {
+cursor: point;
+
+}
+
+select {
+  color: grey !important;
+  height: 2rem;
+  width: 600px;
+  margin-top: 20px;
+}
+
+
+  
+
